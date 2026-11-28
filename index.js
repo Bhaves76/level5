@@ -7,7 +7,7 @@ const app = express()
 
 app.get("/", (req,res)=>{
     return res.status(200)
-              . json({message:"hello to / "})
+              . json({message:"hello to ci/cd workflow"})
 })
 
 app.get("/health", (req,res)=>{
